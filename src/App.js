@@ -10,8 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code>. And Do something :)
         </p>
-        <p>hacktheripper.com<</p>
-        changes in feature branch
+        <p><b>hacktheripper.com</b></p>
+        <code>changes in feature branch...</code>
         <a
           className="App-link"
           href="https://reactjs.org"
