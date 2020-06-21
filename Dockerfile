@@ -12,6 +12,7 @@ RUN npm run build
 # Run Phase .. FROM statements means new block
 
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 # Start nginx runs by default
 
